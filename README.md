@@ -1,12 +1,31 @@
-# React + Vite
+# Firebase Assignment - React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🔧 Tech Stack
+- React.js
+- Firebase Firestore
+- Vite (for bundling)
 
-Currently, two official plugins are available:
+## 📁 Project Structure
+- `src/firebase/config.js` – Firebase setup
+- `src/components/Board.jsx` – Main component that interacts with Firestore
+- `App.jsx` – Root component
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Setup Instructions
 
-## Expanding the ESLint configuration
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/yourusername/your-repo.git
+   cd your-repo
+2.Install dependencies:
+npm install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3.Run the project:
+npm run dev
+
+📦 Firebase
+Firestore is used to store board data.
+
+👨‍💻 Author
+Name: Deepak sharma
+
+
